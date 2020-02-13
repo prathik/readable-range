@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="614a3592-7793-45bc-aa44-83211fc81e83" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/test/HumanReadableRangeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/test/HumanReadableRangeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/test/HumanReadableRangeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/test/HumanReadableRangeBuilder.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1XkyI1SzoU5ABqUnkK4ST27mt6j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HumanReadableRangeBuilderTest">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="readable-range" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="readable-range" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HumanReadableRangeBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="readable-range.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.HumanReadableRangeBuilderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HumanReadableRangeBuilderTest.toRange_largeRange_expectedOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="readable-range.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.HumanReadableRangeBuilderTest" />
+      <option name="METHOD_NAME" value="toRange_largeRange_expectedOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HumanReadableRangeBuilderTest.toRange_singleElement_getOneElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="readable-range.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.HumanReadableRangeBuilderTest" />
+      <option name="METHOD_NAME" value="toRange_singleElement_getOneElement" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HumanReadableRangeBuilderTest.toRange_threeRangeMidSingle_getThreeRanges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="readable-range.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.HumanReadableRangeBuilderTest" />
+      <option name="METHOD_NAME" value="toRange_threeRangeMidSingle_getThreeRanges" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HumanReadableRangeBuilderTest.toRange_twoRanges_getTheRangeInOutput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="readable-range.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.HumanReadableRangeBuilderTest" />
+      <option name="METHOD_NAME" value="toRange_twoRanges_getTheRangeInOutput" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HumanReadableRangeBuilderTest" />
+        <item itemvalue="JUnit.HumanReadableRangeBuilderTest.toRange_largeRange_expectedOutput" />
+        <item itemvalue="JUnit.HumanReadableRangeBuilderTest.toRange_threeRangeMidSingle_getThreeRanges" />
+        <item itemvalue="JUnit.HumanReadableRangeBuilderTest.toRange_twoRanges_getTheRangeInOutput" />
+        <item itemvalue="JUnit.HumanReadableRangeBuilderTest.toRange_singleElement_getOneElement" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Git/Approval" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="614a3592-7793-45bc-aa44-83211fc81e83" name="Default Changelist" comment="" />
+      <created>1581604303348</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581604303348</updated>
+      <workItem from="1581604304753" duration="397000" />
+      <workItem from="1581604706405" duration="6254000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="501" y="87" key="#xdebugger.evaluate" timestamp="1581612974695">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="501" y="87" key="#xdebugger.evaluate/0.0.1280.800@0.0.1280.800" timestamp="1581612974695" />
+    <state width="1224" height="198" key="GridCell.Tab.0.bottom" timestamp="1581613832189">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1224" height="198" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581613832189" />
+    <state width="1224" height="248" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1581612825121" />
+    <state width="1224" height="198" key="GridCell.Tab.0.center" timestamp="1581613832187">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1224" height="198" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581613832187" />
+    <state width="1224" height="248" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1581612825120" />
+    <state width="1224" height="198" key="GridCell.Tab.0.left" timestamp="1581613832186">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1224" height="198" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581613832186" />
+    <state width="1224" height="248" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1581612825119" />
+    <state width="1224" height="198" key="GridCell.Tab.0.right" timestamp="1581613832188">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1224" height="198" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581613832188" />
+    <state width="1224" height="248" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1581612825120" />
+    <state width="1224" height="248" key="GridCell.Tab.1.bottom" timestamp="1581612987549">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1224" height="248" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581612987549" />
+    <state width="1224" height="248" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1581612824964" />
+    <state width="1224" height="248" key="GridCell.Tab.1.center" timestamp="1581612987547">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1224" height="248" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1581612987547" />
+    <state width="1224" height="248" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1581612824963" />
+    <state width="1224" height="248" key="GridCell.Tab.1.left" timestamp="1581612987547">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1224" height="248" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1581612987547" />
+    <state width="1224" height="248" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1581612824963" />
+    <state width="1224" height="248" key="GridCell.Tab.1.right" timestamp="1581612987548">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1224" height="248" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1581612987548" />
+    <state width="1224" height="248" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1581612824964" />
+    <state x="70" y="0" key="SettingsEditor" timestamp="1581604593585">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="70" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1581604593585" />
+    <state x="415" y="174" key="chooseDestDirectoryDialog" timestamp="1581604365352">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="415" y="174" key="chooseDestDirectoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1581604365352" />
+    <state x="361" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581604579132">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="361" y="76" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1581604579132" />
+    <state x="69" y="84" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581606413048">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="69" y="84" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800@0.0.1280.800" timestamp="1581606413048" />
+    <state x="221" y="0" key="search.everywhere.popup" timestamp="1581604596052">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="221" y="0" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1581604596052" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="expectedValue" />
+        <watch expression="input.get(mid)" language="JAVA" />
+        <watch expression="input.get(mid + 1)" language="JAVA" />
+        <watch expression="startIndex" />
+        <watch expression="endIndex" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
