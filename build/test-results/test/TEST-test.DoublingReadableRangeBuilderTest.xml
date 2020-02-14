@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.DoublingReadableRangeBuilderTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-15T04:50:27" hostname="Prathiks-MacBook-Pro.local" time="0.021">
+  <properties/>
+  <testcase name="toRange_largeRange_expectedOutput" classname="test.DoublingReadableRangeBuilderTest" time="0.02"/>
+  <testcase name="toRange_threeRangeOnlyMultiRange_getThreeRanges" classname="test.DoublingReadableRangeBuilderTest" time="0.0"/>
+  <testcase name="toRange_singleElement_getOneElement" classname="test.DoublingReadableRangeBuilderTest" time="0.001"/>
+  <testcase name="toRange_threeRangeMidSingle_getThreeRanges" classname="test.DoublingReadableRangeBuilderTest" time="0.0"/>
+  <testcase name="toRange_twoRanges_getTheRangeInOutput" classname="test.DoublingReadableRangeBuilderTest" time="0.0"/>
+  <testcase name="toRange_singleRange_getOneRange" classname="test.DoublingReadableRangeBuilderTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

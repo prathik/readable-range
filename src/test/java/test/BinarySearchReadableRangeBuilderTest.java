@@ -5,10 +5,10 @@ import static org.junit.Assert.*;
 import java.util.List;
 import org.junit.Test;
 
-public class HumanReadableRangeBuilderTest {
+public class BinarySearchReadableRangeBuilderTest {
   @Test
   public void toRange_singleRange_getOneRange() {
-    var builder = new HumanReadableRangeBuilder(List.of(1, 2, 3));
+    var builder = new BinarySearchReadableRangeBuilder(List.of(1, 2, 3));
     var ranges = builder.toRange();
     assertEquals(1, ranges.size());
     assertEquals("[1-3]", ranges.get(0));
@@ -16,7 +16,7 @@ public class HumanReadableRangeBuilderTest {
 
   @Test
   public void toRange_singleElement_getOneElement() {
-    var builder = new HumanReadableRangeBuilder(List.of(1));
+    var builder = new BinarySearchReadableRangeBuilder(List.of(1));
     var ranges = builder.toRange();
     assertEquals(1, ranges.size());
     assertEquals("[1]", ranges.get(0));
@@ -24,7 +24,7 @@ public class HumanReadableRangeBuilderTest {
 
   @Test
   public void toRange_twoRanges_getTheRangeInOutput() {
-    var builder = new HumanReadableRangeBuilder(List.of(1, 2, 3, 7, 8, 9));
+    var builder = new BinarySearchReadableRangeBuilder(List.of(1, 2, 3, 7, 8, 9));
     var ranges = builder.toRange();
     assertEquals(2, ranges.size());
     assertEquals("[1-3]", ranges.get(0));
@@ -33,7 +33,7 @@ public class HumanReadableRangeBuilderTest {
 
   @Test
   public void toRange_threeRangeMidSingle_getThreeRanges() {
-    var builder = new HumanReadableRangeBuilder(List.of(1, 2, 3, 5, 7, 8, 9));
+    var builder = new BinarySearchReadableRangeBuilder(List.of(1, 2, 3, 5, 7, 8, 9));
     var ranges = builder.toRange();
     assertEquals(3, ranges.size());
     assertEquals("[1-3]", ranges.get(0));
@@ -43,7 +43,7 @@ public class HumanReadableRangeBuilderTest {
 
   @Test
   public void toRange_threeRangeOnlyMultiRange_getThreeRanges() {
-    var builder = new HumanReadableRangeBuilder(List.of(1, 2, 3, 5, 6, 7, 8, 9, 100, 101));
+    var builder = new BinarySearchReadableRangeBuilder(List.of(1, 2, 3, 5, 6, 7, 8, 9, 100, 101));
     var ranges = builder.toRange();
     assertEquals(3, ranges.size());
     assertEquals("[1-3]", ranges.get(0));
@@ -54,7 +54,7 @@ public class HumanReadableRangeBuilderTest {
   @Test
   public void toRange_largeRange_expectedOutput() {
     var builder =
-        new HumanReadableRangeBuilder(
+        new BinarySearchReadableRangeBuilder(
             List.of(
                 1, 2, 3, 8, 9, 10, 67, 68, 69, 70, 100, 101, 102, 104, 106, 201, 202, 203, 204));
     var ranges = builder.toRange();

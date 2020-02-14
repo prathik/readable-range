@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class HumanReadableRangeBuilder {
+public class BinarySearchReadableRangeBuilder implements IHumanReadableRangeBuilder {
   private final List<Integer> input;
   private final int size;
 
-  public HumanReadableRangeBuilder(final List<Integer> input) {
+  public BinarySearchReadableRangeBuilder(final List<Integer> input) {
     this.input = Objects.requireNonNull(input);
     this.size = input.size();
 
@@ -17,7 +17,8 @@ public class HumanReadableRangeBuilder {
     }
   }
 
-  List<String> toRange() {
+  @Override
+  public List<String> toRange() {
     var ranges = new ArrayList<String>();
     var startIndex = 0;
     while (startIndex < size) {
